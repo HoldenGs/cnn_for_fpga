@@ -1,0 +1,22 @@
+conv1.0.weight torch.Size([16, 1, 3, 3]) torch.float32
+conv1.0.bias torch.Size([16]) torch.float32
+conv1.1.weight torch.Size([16]) torch.float32
+conv1.1.bias torch.Size([16]) torch.float32
+conv2.0.weight torch.Size([32, 16, 3, 3]) torch.float32
+conv2.0.bias torch.Size([32]) torch.float32
+conv2.1.weight torch.Size([32]) torch.float32
+conv2.1.bias torch.Size([32]) torch.float32
+fc.1.weight torch.Size([10, 800]) torch.float32
+fc.1.bias torch.Size([10]) torch.float32
+Wrote 144 values to conv1_weights.coe
+Used scale factor: 0.0026227367205882636
+Wrote 16 values to conv1_bias.coe
+Used scale factor: 0.002489122349446214
+Wrote 4608 values to conv2_weights.coe
+Used scale factor: 0.0006561039939640076
+Wrote 32 values to conv2_bias.coe
+Used scale factor: 0.0006361983305825962
+Wrote 8000 values to fc_weights.coe
+Used scale factor: 0.0002783645149760359
+Wrote 10 values to fc_bias.coe
+Used scale factor: 0.0002494178947031967
